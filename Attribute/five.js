@@ -6,7 +6,7 @@
 <style>  
 h1 {  
     text-align: center;  
-    padding: 23px;  
+    padding: 23px;      
     background-color: skyblue;  
     color: white;  
     }  
@@ -85,7 +85,7 @@ border: 5px solid black;
     
   <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
   <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
-    <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+    <input type = "button"value = "." onclick = "form1.answer.value += '.' ">  
     <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
   <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
   <br>   
@@ -96,4 +96,4 @@ border: 5px solid black;
 </form>  
 </div>  
 </body>  
-</html>  
+</html> 
