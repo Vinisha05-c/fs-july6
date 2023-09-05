@@ -61,7 +61,7 @@ border: 5px solid black;
 <form name = "form1">  
       
     <!-- This input box shows the button pressed by the user in calculator. -->  
-  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+  <input id = "calc" type ="text" name = "answer"> <br><br>  
   <!-- Display the calculator button on the screen. -->  
   <!-- onclick() function display the number prsses by the user. -->  
   <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
